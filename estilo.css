@@ -1,0 +1,35 @@
+.janela
+{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(2, 61, 117);
+    position: absolute;
+    left: 50%;
+    top: 50vh;
+    margin-top: -100px;
+    margin-left: -150px;
+    display: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.x
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -100px;
+    margin-left: 130px;
+}
+.x:hover
+{
+    cursor: pointer;
+}
+
+@media print
+{
+    .BT
+    {
+        display: none;
+    }
+}
